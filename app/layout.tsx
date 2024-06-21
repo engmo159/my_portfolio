@@ -1,14 +1,29 @@
 import type { Metadata } from 'next'
-import { Inter, Poppins, Sora } from '@next/font/google'
+import { Inter, Poppins, Sora } from 'next/font/google'
 import './globals.css'
+import Nav from './components/Nav'
+import Header from './components/Header'
+import TopLeftImg from './components/TopLeftImg'
+// import AnimatedLayout from './AnimatedLayout'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+//font settings
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
 const poppins = Poppins({
+  display: 'swap',
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-poppins',
 })
-const sora = Sora({ subsets: ['latin'], variable: '--font-sora' })
+const sora = Sora({
+  subsets: ['latin'],
+  variable: '--font-sora',
+  display: 'swap',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -21,11 +36,21 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='en'>
-      <body
-        className={`${poppins.variable} ${inter.variable} ${sora.variable} `}
-      >
-        {children}
+    <html
+      lang='en'
+      className={`${inter.variable} ${poppins.variable} ${sora.variable}`}
+    >
+      <body>
+        <div
+          className={`page bg-site text-white bg-cover bg-no-repeat font-sora relative`}
+        >
+          <TopLeftImg />
+          <Nav />
+          <Header />
+          {/* <AnimatedLayout> */}
+          {children}
+          {/* </AnimatedLayout> */}
+        </div>
       </body>
     </html>
   )
