@@ -1,9 +1,22 @@
 'use client'
 
+import {
+  IBackground,
+  IBackgroundMask,
+  IFullScreen,
+  IInteractivity,
+  IManualParticle,
+  IParticlesOptions,
+  IResponsive,
+  ITheme,
+  RangeValue,
+  RecursivePartial,
+  SingleOrMultiple,
+} from '@tsparticles/engine'
 import Particles, { initParticlesEngine } from '@tsparticles/react'
 import { useEffect, useMemo, useState } from 'react'
 import { loadFull } from 'tsparticles'
-import type { ISourceOptions } from 'tsparticles'
+// import type { IOptions } from 'tsparticles/dist/Options/Interfaces/IOptions'
 
 const ParticlesContainer = () => {
   const [init, setInit] = useState(false)
@@ -20,7 +33,7 @@ const ParticlesContainer = () => {
     console.log(container)
   }
 
-  const options: ISourceOptions = useMemo(
+  const options: any = useMemo(
     () => ({
       fullScreen: { enable: false },
       background: {
@@ -108,7 +121,7 @@ const ParticlesContainer = () => {
     <Particles
       className='w-full h-full absolute translate-z-0'
       id='tsparticles'
-      init={particlesLoaded}
+      // init={particlesLoaded}
       options={options}
     />
   )
