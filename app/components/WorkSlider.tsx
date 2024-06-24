@@ -26,47 +26,47 @@ const workSlides = {
           width: 1410,
           height: 782,
         },
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
-          src: '',
-          width: 1396,
-          height: 793,
-        },
+        // {
+        //   title: 'title',
+        //   path: '/thumb4.jpg',
+        //   src: '',
+        //   width: 1396,
+        //   height: 793,
+        // },
       ],
     },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb4.jpg',
-          src: '',
-          width: 1396,
-          height: 793,
-        },
-        {
-          title: 'title',
-          path: '/thumb1.jpg',
-          src: '',
-          width: 1396,
-          height: 793,
-        },
-        {
-          title: 'title',
-          path: '/thumb2.jpg',
-          src: '',
-          width: 1396,
-          height: 793,
-        },
-        {
-          title: 'title',
-          path: '/thumb3.jpg',
-          src: '',
-          width: 1396,
-          height: 793,
-        },
-      ],
-    },
+    // {
+    //   images: [
+    //     {
+    //       title: 'title',
+    //       path: '/thumb4.jpg',
+    //       src: '',
+    //       width: 1396,
+    //       height: 793,
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/thumb1.jpg',
+    //       src: '',
+    //       width: 1396,
+    //       height: 793,
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/thumb2.jpg',
+    //       src: '',
+    //       width: 1396,
+    //       height: 793,
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/thumb3.jpg',
+    //       src: '',
+    //       width: 1396,
+    //       height: 793,
+    //     },
+    //   ],
+    // },
   ],
 }
 import Image from 'next/image'
