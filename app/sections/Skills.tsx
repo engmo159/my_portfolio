@@ -289,13 +289,13 @@ const Skills = () => {
       </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-8 xl:pl-36 xl:pr-24'>
         {/* text */}
-        <div className='flex-1 flex flex-col justify-center '>
+        <div className='flex-1 flex flex-col justify-evenly '>
           <motion.h2
             variants={fadeIn('right', 0.6)}
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='xl:h2 text-lg'
+            className='xl:h2 text-3xl'
             ref={ref}
           >
             Mastering essential <span className='text-accent'>skills</span> for

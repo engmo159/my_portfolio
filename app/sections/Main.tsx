@@ -10,14 +10,14 @@ const Main = () => {
     <main className='bg-primary/60 h-full'>
       {/* text */}
       <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
-        <div className='text-center flex flex-col justify-center pt-0 md:pt-8  xl:pt-40 xl:text-left h-full container mx-auto'>
+        <div className='text-center flex flex-col justify-evenly pt-0 md:pt-8  xl:pt-40 xl:text-left h-full container mx-auto'>
           {/* title */}
           <motion.h1
             variants={fadeIn('down', 0.2)}
             initial='hidden'
             animate='show'
             exit='hidden'
-            className=' text-xl md:text-3xl lg:h1 pb-4 lg:pb-0 '
+            className=' text-2xl md:text-4xl lg:h1  lg:pb-0 '
           >
             Building Dreams <br />
             Into <span className='text-accent'>Web Solutions</span>

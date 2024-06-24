@@ -19,20 +19,20 @@ const Work = () => {
   }, [controls, inView])
 
   return (
-    <div className='h-full bg-primary/30 xl:py-36 flex items-center sm:items-start  justify-center section'>
+    <div className='h-full bg-primary/30 xl:py-36 flex items-center sm:items-start  justify-evenly section'>
       <Circles />
-      <div className='container mx-auto'>
+      <div className='container mx-auto my-auto '>
         <div className='flex flex-col xl:flex-row  gap-x-8'>
           {/* text */}
-          <div className='text-center text-sm xl:text-xl flex xl:w-[30vw] flex-col lg:text-left  mb-0'>
+          <div className='text-center text-sm xl:text-xl flex xl:w-[30vw] flex-col lg:text-left  mb-16'>
             <motion.h2
               variants={fadeIn('up', 0.2)}
               initial='hidden'
               animate={controls} // Use controls from useAnimation
               ref={ref} // Attach ref from useInView
-              className='xl:h2 xl:mt-12 text-center text-3xl'
+              className='xl:h2 xl:mt-12 text-center text-3xl mb-8'
             >
-              My Work<span className='text-accent'>.</span>
+              My Work<span className='text-accent mb-0'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}
