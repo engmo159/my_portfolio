@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.section {
+  height: 100vh;
+}
+
 .translate-z-0 {
   transform: translateZ(0px);
 }

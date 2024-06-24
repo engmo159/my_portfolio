@@ -1,7 +1,7 @@
 'use client'
 // icons
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+// import { usePathname } from 'next/navigation'
 import {
   HiHome,
   HiUser,
@@ -14,23 +14,24 @@ import {
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
-  { name: 'about', path: '/about', icon: <HiUser /> },
-  { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
-  { name: 'work', path: '/work', icon: <HiViewColumns /> },
-  {
-    name: 'testimonials',
-    path: '/testimonials',
-    icon: <HiChatBubbleBottomCenterText />,
-  },
+  { name: 'skills', path: '#skills', icon: <HiUser /> },
+
+  // { name: 'services', path: '/services', icon: <HiRectangleGroup /> },
+  { name: 'work', path: '/#work', icon: <HiViewColumns /> },
+  // {
+  //   name: 'testimonials',
+  //   path: '/testimonials',
+  //   icon: <HiChatBubbleBottomCenterText />,
+  // },
   {
     name: 'contact',
-    path: '/contact',
+    path: '/#contact',
     icon: <HiEnvelope />,
   },
 ]
 
-const Nav = () => {
-  const pathName = usePathname()
+const Nav = ({ activeSection }) => {
+  // const pathName = usePathname()
   return (
     <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed  h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen '>
       <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px]  xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
@@ -39,7 +40,8 @@ const Nav = () => {
             <Link
               key={index}
               className={`${
-                link.path === pathName && 'text-accent'
+                // link.path === pathName ||
+                link.name === activeSection ? 'text-accent' : ''
               } relative flex items-center group hover:text-accent transition-all duration-300`}
               href={link.path}
             >
