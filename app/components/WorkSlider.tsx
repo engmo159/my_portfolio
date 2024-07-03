@@ -6,6 +6,13 @@ const workSlides = {
     {
       images: [
         {
+          title: 'Dokan Shop',
+          path: '/laptop.png',
+          src: 'https://dokanshop-mohamedsaeed.vercel.app/',
+          width: 753,
+          height: 450,
+        },
+        {
           title: 'ECommerce',
           path: '/Screenshot 2024-06-24 083849.png',
           src: 'https://ecommerce-amber-ten-52.vercel.app/',
@@ -15,7 +22,7 @@ const workSlides = {
         {
           title: 'Admin Dashboard',
           path: '/Screenshot 2024-06-24 094146.png',
-          src: '#work',
+          src: 'https://drive.google.com/file/d/1uj0TiBfMpEKDXFqfQQMgHtwr1GqK20x0/view?usp=sharing',
           width: 1761,
           height: 751,
         },
