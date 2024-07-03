@@ -23,6 +23,9 @@ const config: Config = {
         primary: '#131424',
         secondary: '#393A47',
         accent: '#F13024',
+        green: '#128C7E',
+        blue: '#1877F2	',
+        darkGray: '#2B3137',
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',

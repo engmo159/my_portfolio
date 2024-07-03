@@ -15,28 +15,28 @@ const Socials = () => {
         href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
           message
         )}`}
-        className='hover:text-accent transition-all duration-300'
+        className='hover:text-green transition-all duration-300'
         target='_blank'
       >
         <FaWhatsapp />
       </Link>
       <Link
         href={'https://www.facebook.com/profile.php?id=100089993231546'}
-        className='hover:text-accent transition-all duration-300'
+        className='hover:text-blue transition-all duration-300'
         target='_blank'
       >
         <RiFacebookBoxLine />
       </Link>
       <Link
         href={'https://github.com/engmo159'}
-        className='hover:text-accent transition-all duration-300'
+        className='hover:text-darkGray transition-all duration-300'
         target='_blank'
       >
         <RiGithubFill />
       </Link>
       <Link
         href={'https://www.linkedin.com/in/mohamed-saeed-web/'}
-        className='hover:text-accent transition-all duration-300'
+        className='hover:text-blue transition-all duration-300'
         target='_blank'
       >
         <RiLinkedinBoxFill />
