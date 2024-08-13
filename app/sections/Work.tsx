@@ -54,7 +54,7 @@ const Work = () => {
             initial='hidden'
             animate={controls} // Use controls from useAnimation
             ref={ref} // Attach ref from useInView
-            className='w-full xl:max-w-[65%]'
+            className='w-full xl:max-w-[65%] h-full'
           >
             <WorkSlider />
           </motion.div>

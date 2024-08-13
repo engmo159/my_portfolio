@@ -6,6 +6,13 @@ const workSlides = {
     {
       images: [
         {
+          title: 'Translator App.',
+          path: '/translator.png',
+          src: 'https://translator-project-nine.vercel.app/',
+          width: 753,
+          height: 450,
+        },
+        {
           title: 'Dokan Shop',
           path: '/laptop.png',
           src: 'https://dokanshop-mohamedsaeed.vercel.app/',
@@ -26,6 +33,10 @@ const workSlides = {
           width: 1761,
           height: 751,
         },
+      ],
+    },
+    {
+      images: [
         {
           title: 'LMS & Exam',
           path: '/Screenshot 2024-06-24 100252.png',
@@ -33,47 +44,8 @@ const workSlides = {
           width: 1410,
           height: 782,
         },
-        // {
-        //   title: 'title',
-        //   path: '/thumb4.jpg',
-        //   src: '',
-        //   width: 1396,
-        //   height: 793,
-        // },
       ],
     },
-    // {
-    //   images: [
-    //     {
-    //       title: 'title',
-    //       path: '/thumb4.jpg',
-    //       src: '',
-    //       width: 1396,
-    //       height: 793,
-    //     },
-    //     {
-    //       title: 'title',
-    //       path: '/thumb1.jpg',
-    //       src: '',
-    //       width: 1396,
-    //       height: 793,
-    //     },
-    //     {
-    //       title: 'title',
-    //       path: '/thumb2.jpg',
-    //       src: '',
-    //       width: 1396,
-    //       height: 793,
-    //     },
-    //     {
-    //       title: 'title',
-    //       path: '/thumb3.jpg',
-    //       src: '',
-    //       width: 1396,
-    //       height: 793,
-    //     },
-    //   ],
-    // },
   ],
 }
 import Image from 'next/image'
