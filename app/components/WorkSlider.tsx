@@ -6,7 +6,7 @@ const workSlides = {
     {
       images: [
         {
-          title: 'Translator App.',
+          title: 'Translator ',
           path: '/translator.png',
           src: 'https://translator-project-nine.vercel.app/',
           width: 753,
