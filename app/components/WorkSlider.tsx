@@ -12,6 +12,7 @@ const workSlides = {
           width: 753,
           height: 450,
         },
+
         {
           title: 'Dokan Shop',
           path: '/laptop.png',
