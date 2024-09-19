@@ -6,9 +6,9 @@ const workSlides = {
     {
       images: [
         {
-          title: 'Translator ',
-          path: '/translator.png',
-          src: 'https://translator-project-nine.vercel.app/',
+          title: 'E commerce Fashion Store',
+          path: '/ecommerce.png',
+          src: 'https://ecommerce-first-course-project.vercel.app/',
           width: 753,
           height: 450,
         },
@@ -28,11 +28,11 @@ const workSlides = {
           height: 793,
         },
         {
-          title: 'Admin Dashboard',
-          path: '/Screenshot 2024-06-24 094146.png',
-          src: 'https://drive.google.com/file/d/1uj0TiBfMpEKDXFqfQQMgHtwr1GqK20x0/view?usp=sharing',
-          width: 1761,
-          height: 751,
+          title: 'Translator ',
+          path: '/translator.png',
+          src: 'https://translator-project-nine.vercel.app/',
+          width: 753,
+          height: 450,
         },
       ],
     },
@@ -44,6 +44,13 @@ const workSlides = {
           src: 'https://lms-exam-app.vercel.app/',
           width: 1410,
           height: 782,
+        },
+        {
+          title: 'Admin Dashboard',
+          path: '/Screenshot 2024-06-24 094146.png',
+          src: 'https://drive.google.com/file/d/1uj0TiBfMpEKDXFqfQQMgHtwr1GqK20x0/view?usp=sharing',
+          width: 1761,
+          height: 751,
         },
       ],
     },
