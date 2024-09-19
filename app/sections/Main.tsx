@@ -7,7 +7,7 @@ import ParticlesContainer from '../components/ParticlesContainer'
 
 const Main = () => {
   return (
-    <main className='bg-primary/60 h-full'>
+    <main className='bg-primary/60 h-screen'>
       {/* text */}
       <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10'>
         <div className='text-center flex flex-col justify-evenly pt-4 md:pt-8  xl:pt-40 xl:text-left h-full container mx-auto'>
@@ -53,7 +53,7 @@ const Main = () => {
         </div>
       </div>
       {/* image */}
-      <div className='w-[1200px] h-full absolute right-0 bottom-0'>
+      <div className='w-full h-full absolute right-0 bottom-0'>
         {/* big image */}
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'></div>
         {/* particles */}

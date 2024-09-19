@@ -8,11 +8,8 @@ interface AvatarProps {
 const my_avatar = (
   <Image
     src={'/my picture.png'}
-    // src={'/avatar.png'}
     width={452}
     height={678}
-    // width={737}
-    // height={678}
     alt=''
     className='translate-z-0 w-full h-full'
   />
