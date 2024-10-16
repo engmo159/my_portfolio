@@ -8,7 +8,7 @@ const workSlides = {
         {
           title: 'E commerce Fashion Store',
           path: '/ecommerce.png',
-          src: 'https://ecommerce-first-course-project.vercel.app/',
+          src: 'https://ecommerce-malefashion.vercel.app/',
           width: 753,
           height: 450,
         },
