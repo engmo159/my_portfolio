@@ -93,7 +93,7 @@ const Home = ({ setActiveSection }) => {
       </section>
       <section
         id='work'
-        className='h-screen section'
+        className='min-h-screen section'
         ref={workInViewRef || workRef}
       >
         <Work />
@@ -101,7 +101,7 @@ const Home = ({ setActiveSection }) => {
 
       <section
         id='contact'
-        className='h-screen section'
+        className='min-h-screen section'
         ref={contactInViewRef || contactRef}
       >
         <Contact />

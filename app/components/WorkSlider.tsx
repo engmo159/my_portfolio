@@ -12,6 +12,13 @@ const workSlides = {
           width: 753,
           height: 450,
         },
+        {
+          title: 'Movie MAZE ',
+          path: '/aflam.png',
+          src: 'https://aflam-psi.vercel.app/',
+          width: 753,
+          height: 450,
+        },
 
         {
           title: 'Dokan Shop',
@@ -26,13 +33,6 @@ const workSlides = {
           src: 'https://ecommerce-amber-ten-52.vercel.app/',
           width: 1396,
           height: 793,
-        },
-        {
-          title: 'Translator ',
-          path: '/translator.png',
-          src: 'https://translator-project-nine.vercel.app/',
-          width: 753,
-          height: 450,
         },
       ],
     },
@@ -52,10 +52,18 @@ const workSlides = {
           width: 1761,
           height: 751,
         },
+        {
+          title: 'Translator ',
+          path: '/translator.png',
+          src: 'https://translator-project-nine.vercel.app/',
+          width: 753,
+          height: 450,
+        },
       ],
     },
   ],
 }
+
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
