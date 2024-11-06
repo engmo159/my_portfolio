@@ -150,6 +150,71 @@ const skillData = [
           />,
         ],
       },
+      {
+        title: 'Redux Toolkit',
+        icons: [
+          <Image
+            src={'/icons/redux.png'}
+            key='three'
+            alt=''
+            width={512}
+            height={512}
+            className=' bg-white rounded-lg'
+          />,
+        ],
+      },
+      {
+        title: 'React Bootstrap',
+        icons: [
+          <Image
+            src={'/icons/react_boot.png'}
+            key='three'
+            alt=''
+            width={512}
+            height={512}
+            className=' bg-white rounded-lg'
+          />,
+        ],
+      },
+      {
+        title: 'Material UI',
+        icons: [
+          <Image
+            src={'/icons/mui.png'}
+            key='three'
+            alt=''
+            width={512}
+            height={512}
+            className=' bg-white rounded-lg'
+          />,
+        ],
+      },
+      {
+        title: 'Material Tailwind',
+        icons: [
+          <Image
+            src={'/icons/material_tailwind.png'}
+            key='three'
+            alt=''
+            width={512}
+            height={512}
+            className=' bg-white rounded-lg'
+          />,
+        ],
+      },
+      {
+        title: 'Material Elements',
+        icons: [
+          <Image
+            src={'/icons/m_elements.webp'}
+            key='three'
+            alt=''
+            width={512}
+            height={512}
+            className=' bg-white rounded-lg'
+          />,
+        ],
+      },
     ],
   },
   {
@@ -184,6 +249,30 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/icons8-mongo-db-96.png'}
+            key='mongo'
+            alt=''
+            width={96}
+            height={96}
+          />,
+        ],
+      },
+      {
+        title: 'Mongoose JS',
+        icons: [
+          <Image
+            src={'/icons/mongoose.png'}
+            key='mongo'
+            alt=''
+            width={96}
+            height={96}
+          />,
+        ],
+      },
+      {
+        title: 'JSON Server',
+        icons: [
+          <Image
+            src={'/icons/json.jpeg'}
             key='mongo'
             alt=''
             width={96}
@@ -252,6 +341,42 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/visual-studio.png'}
+            key='vs'
+            alt=''
+            width={512}
+            height={512}
+          />,
+        ],
+      },
+      {
+        title: 'Netlify',
+        icons: [
+          <Image
+            src={'/icons/netlify.png'}
+            key='vs'
+            alt=''
+            width={512}
+            height={512}
+          />,
+        ],
+      },
+      {
+        title: 'Postman',
+        icons: [
+          <Image
+            src={'/icons/postman-icon-svgrepo-com.svg'}
+            key='vs'
+            alt=''
+            width={512}
+            height={512}
+          />,
+        ],
+      },
+      {
+        title: 'Render',
+        icons: [
+          <Image
+            src={'/icons/render.png'}
             key='vs'
             alt=''
             width={512}
