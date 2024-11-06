@@ -100,10 +100,10 @@ const ParticlesContainer = () => {
             // height: 30,
             // width: 30,
           },
-          value: 20,
+          value: 5,
         },
         opacity: {
-          value: 0.9,
+          value: 1,
         },
         shape: {
           type: 'circle',

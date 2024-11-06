@@ -34,7 +34,7 @@ const config: Config = {
         site: 'url("/site-bg.svg")',
       },
       animation: {
-        'spin-slow': 'spin 6s linear infinite',
+        'spin-slow': 'spin 60s linear infinite',
       },
       fontFamily: {
         poppins: [`var(--font-poppins)`, 'sans-serif'],
