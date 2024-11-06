@@ -36,7 +36,7 @@ const Main = () => {
             together.
           </motion.p>
           {/* btn */}
-          <div className='flex justify-center xl:hidden relative z-10'>
+          <div className='flex justify-center xl:hidden relative z-20'>
             <ProjectsBtn />
           </div>
           <div>
