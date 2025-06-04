@@ -464,7 +464,7 @@ const Skills = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='max-w-[500px] mx-auto xl:mx-0 sm:mb-6 xl:mb-12 px-2 xl:px-0'
+            className='max-w-[500px] mx-auto xl:mx-0 md:mb-6 xl:mb-12 px-2 xl:px-0'
             ref={ref}
           >
             I am working on web development and design skills. Through
@@ -482,7 +482,7 @@ const Skills = () => {
           ref={ref}
         >
           <div
-            className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'
+            className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 md:mb-4'
             role='tablist'
           >
             {skillData.map((item, itemIndex) => (
