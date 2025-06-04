@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.com',
+    url: 'https://mohamedsaeed.vercel.app',
     title: 'Eng Mohammed Saeed | Full Stack Developer Portfolio',
     description:
       'Professional portfolio of Eng Mohammed Saeed - Full Stack Developer specializing in modern web technologies.',
