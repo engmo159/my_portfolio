@@ -488,7 +488,7 @@ const Skills = () => {
             {skillData.map((item, itemIndex) => (
               <div
                 key={itemIndex}
-                className={`${
+                className={` my-2 ${
                   index === itemIndex
                     ? 'text-accent after:w-full after:bg-accent after:transition-all after:duration-300'
                     : ''
