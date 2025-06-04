@@ -6,6 +6,13 @@ const workSlides = {
     {
       images: [
         {
+          title: 'Construction company website',
+          path: '/diar.png',
+          src: 'https://diar-aleamar.vercel.app/',
+          width: 753,
+          height: 450,
+        },
+        {
           title: 'E commerce Fashion Store',
           path: '/ecommerce.png',
           src: 'https://ecommerce-malefashion.vercel.app/',
@@ -27,6 +34,10 @@ const workSlides = {
           width: 753,
           height: 450,
         },
+      ],
+    },
+    {
+      images: [
         {
           title: 'ECommerce',
           path: '/Screenshot 2024-06-24 083849.png',
@@ -34,10 +45,6 @@ const workSlides = {
           width: 1396,
           height: 793,
         },
-      ],
-    },
-    {
-      images: [
         {
           title: 'LMS & Exam',
           path: '/Screenshot 2024-06-24 100252.png',
