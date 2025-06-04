@@ -427,7 +427,7 @@ const Skills = () => {
   }, [controls, inView])
   return (
     <section
-      className='h-full relative bg-primary/30 sm:pt-12 xl:py-32 text-center xl:text-left section'
+      className='h-full relative bg-primary/30 sm:pt-12 xl:py-32 text-center xl:text-left section flex'
       aria-labelledby='skills-heading'
     >
       <Circles />
