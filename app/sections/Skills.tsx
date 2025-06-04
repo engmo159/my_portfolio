@@ -22,9 +22,10 @@ const skillData = [
           <Image
             src={'/icons/html-5.png'}
             key='html'
-            alt=''
+            alt='HTML5 logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -34,9 +35,10 @@ const skillData = [
           <Image
             src={'/icons/css-3.png'}
             key='css'
-            alt=''
+            alt='CSS3 logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -46,9 +48,10 @@ const skillData = [
           <Image
             src={'/icons/js.png'}
             key='js'
-            alt=''
+            alt='JavaScript logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -58,9 +61,10 @@ const skillData = [
           <Image
             src={'/icons/physics.png'}
             key='react'
-            alt=''
+            alt='React logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -70,9 +74,10 @@ const skillData = [
           <Image
             src={'/icons/nextjs.svg'}
             key='next'
-            alt=''
+            alt='Next.js logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -82,9 +87,10 @@ const skillData = [
           <Image
             src={'/icons/framer-logo.svg'}
             key='framer'
-            alt=''
+            alt='Framer Motion logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -93,10 +99,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/apps-figma.svg'}
-            key='html'
-            alt=''
+            key='figma'
+            alt='Figma logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -106,9 +113,10 @@ const skillData = [
           <Image
             src={'/icons/adobe-photoshop.png'}
             key='photoshop'
-            alt=''
+            alt='Adobe Photoshop logo'
             width={1024}
             height={1024}
+            priority
           />,
         ],
       },
@@ -117,11 +125,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/bootstrap.png'}
-            key='strap'
-            alt=''
+            key='bootstrap'
+            alt='Bootstrap logo'
             width={512}
             height={512}
             className='text-white bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -131,9 +140,10 @@ const skillData = [
           <Image
             src={'/icons/tailwind-css-icon.png'}
             key='tailwind'
-            alt=''
+            alt='Tailwind CSS logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -143,10 +153,11 @@ const skillData = [
           <Image
             src={'/icons/three-js-icon.png'}
             key='three'
-            alt=''
+            alt='React Three Fiber logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -155,11 +166,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/redux.png'}
-            key='three'
-            alt=''
+            key='redux'
+            alt='Redux Toolkit logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -168,11 +180,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/react_boot.png'}
-            key='three'
-            alt=''
+            key='react-bootstrap'
+            alt='React Bootstrap logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -181,11 +194,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/mui.png'}
-            key='three'
-            alt=''
+            key='mui'
+            alt='Material UI logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -194,11 +208,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/material_tailwind.png'}
-            key='three'
-            alt=''
+            key='material-tailwind'
+            alt='Material Tailwind logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -207,11 +222,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/m_elements.webp'}
-            key='three'
-            alt=''
+            key='material-elements'
+            alt='Material Elements logo'
             width={512}
             height={512}
             className=' bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -226,9 +242,10 @@ const skillData = [
           <Image
             src={'/icons/node-js.png'}
             key='node-js'
-            alt=''
+            alt='Node.js logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -237,10 +254,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/icons8-express-js-500.png'}
-            key='csEXPRESSs'
-            alt=''
+            key='express'
+            alt='Express.js logo'
             width={500}
             height={500}
+            priority
           />,
         ],
       },
@@ -250,9 +268,10 @@ const skillData = [
           <Image
             src={'/icons/icons8-mongo-db-96.png'}
             key='mongo'
-            alt=''
+            alt='MongoDB logo'
             width={96}
             height={96}
+            priority
           />,
         ],
       },
@@ -261,10 +280,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/mongoose.png'}
-            key='mongo'
-            alt=''
+            key='mongoose'
+            alt='Mongoose logo'
             width={96}
             height={96}
+            priority
           />,
         ],
       },
@@ -273,23 +293,24 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/json.jpeg'}
-            key='mongo'
-            alt=''
+            key='json'
+            alt='JSON Server logo'
             width={96}
             height={96}
+            priority
           />,
         ],
       },
-
       {
         title: 'Next JS',
         icons: [
           <Image
             src={'/icons/nextjs.svg'}
             key='next'
-            alt=''
+            alt='Next.js logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -303,10 +324,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/social.png'}
-            key='GIT'
-            alt=''
+            key='git'
+            alt='Git logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -315,11 +337,12 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/social2.png'}
-            key='GITHUB'
-            alt=''
+            key='github'
+            alt='GitHub logo'
             width={500}
             height={500}
             className='bg-white rounded-lg'
+            priority
           />,
         ],
       },
@@ -329,22 +352,23 @@ const skillData = [
           <Image
             src={'/icons/Vercel.svg'}
             key='vercel'
-            alt=''
+            alt='Vercel logo'
             width={96}
             height={96}
+            priority
           />,
         ],
       },
-
       {
         title: 'VS Code',
         icons: [
           <Image
             src={'/icons/visual-studio.png'}
-            key='vs'
-            alt=''
+            key='vscode'
+            alt='Visual Studio Code logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -353,10 +377,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/netlify.png'}
-            key='vs'
-            alt=''
+            key='netlify'
+            alt='Netlify logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -365,10 +390,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/postman-icon-svgrepo-com.svg'}
-            key='vs'
-            alt=''
+            key='postman'
+            alt='Postman logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -377,10 +403,11 @@ const skillData = [
         icons: [
           <Image
             src={'/icons/render.png'}
-            key='vs'
-            alt=''
+            key='render'
+            alt='Render logo'
             width={512}
             height={512}
+            priority
           />,
         ],
       },
@@ -399,7 +426,10 @@ const Skills = () => {
     }
   }, [controls, inView])
   return (
-    <div className='h-full relative bg-primary/30 sm:pt-12 xl:py-32 text-center xl:text-left section'>
+    <section
+      className='h-full relative bg-primary/30 sm:pt-12 xl:py-32 text-center xl:text-left section'
+      aria-labelledby='skills-heading'
+    >
       <Circles />
       {/* Avatar image */}
       <motion.div
@@ -409,6 +439,8 @@ const Skills = () => {
         exit='hidden'
         className='hidden xl:flex absolute bottom-0 -left-[233px]'
         ref={ref}
+        role='complementary'
+        aria-label='Developer avatar'
       >
         <Avatar hover={false} />
       </motion.div>
@@ -422,6 +454,7 @@ const Skills = () => {
             exit='hidden'
             className='xl:h2 text-3xl'
             ref={ref}
+            id='skills-heading'
           >
             Mastering essential <span className='text-accent'>skills</span> for
             dynamic development.
@@ -448,7 +481,10 @@ const Skills = () => {
           className='flex flex-col w-full xl:max-w-[48%] h-[480px] '
           ref={ref}
         >
-          <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
+          <div
+            className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'
+            role='tablist'
+          >
             {skillData.map((item, itemIndex) => (
               <div
                 key={itemIndex}
@@ -458,18 +494,27 @@ const Skills = () => {
                     : ''
                 } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemIndex)}
+                role='tab'
+                aria-selected={index === itemIndex}
+                aria-controls={`panel-${itemIndex}`}
+                tabIndex={0}
               >
                 {item.title}
               </div>
             ))}
           </div>
 
-          <div className='flex  gap-2 items-center xl:items-start flex-wrap max-w-[100%] md:mt-4'>
+          <div
+            className='flex gap-2 items-center xl:items-start flex-wrap max-w-[100%] md:mt-4'
+            role='tabpanel'
+            id={`panel-${index}`}
+            aria-labelledby={`tab-${index}`}
+          >
             {skillData[index].info.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
-                  className='flex-1 flex  items-center justify-between text-white/60 basis-1/3 border border-white/30 rounded-xl px-1 py-1  shadow-xl'
+                  className='flex-1 flex items-center justify-between text-white/60 basis-1/3 border border-white/30 rounded-xl px-1 py-1 shadow-xl'
                 >
                   {/* title  */}
                   <div className='font-light'>{item.title}</div>
@@ -490,7 +535,7 @@ const Skills = () => {
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   )
 }
 

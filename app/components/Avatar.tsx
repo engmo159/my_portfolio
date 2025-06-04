@@ -1,11 +1,10 @@
 import Image from 'next/image'
-import { FC } from 'react'
 
 interface AvatarProps {
   hover: boolean
 }
 
-const Avatar: FC<AvatarProps> = ({ hover }) => {
+const Avatar = ({ hover }: AvatarProps) => {
   const myAvatar = (
     <Image
       src='/my picture.png'

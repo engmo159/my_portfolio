@@ -17,6 +17,7 @@ const Socials = () => {
         )}`}
         className='hover:text-green transition-all duration-300'
         target='_blank'
+        rel='noopener noreferrer'
       >
         <FaWhatsapp />
       </Link>
@@ -24,6 +25,7 @@ const Socials = () => {
         href={'https://www.facebook.com/profile.php?id=100089993231546'}
         className='hover:text-blue transition-all duration-300'
         target='_blank'
+        rel='noopener noreferrer'
       >
         <RiFacebookBoxLine />
       </Link>
@@ -31,6 +33,7 @@ const Socials = () => {
         href={'https://github.com/engmo159'}
         className='hover:text-darkGray transition-all duration-300'
         target='_blank'
+        rel='noopener noreferrer'
       >
         <RiGithubFill />
       </Link>
@@ -38,6 +41,7 @@ const Socials = () => {
         href={'https://www.linkedin.com/in/mohamed-saeed-web/'}
         className='hover:text-blue transition-all duration-300'
         target='_blank'
+        rel='noopener noreferrer'
       >
         <RiLinkedinBoxFill />
       </Link>
