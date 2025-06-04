@@ -444,7 +444,7 @@ const Skills = () => {
       >
         <Avatar hover={false} />
       </motion.div>
-      <div className='container mx-auto md:h-full flex flex-col items-center xl:flex-row mb-2 md:mb-0 gap-x-8 xl:pl-36 xl:pr-24'>
+      <div className='container mx-auto md:h-full flex flex-col items-center xl:flex-row  gap-x-8 xl:pl-36 xl:pr-24'>
         {/* text */}
         <div className='flex-1 flex flex-col justify-evenly '>
           <motion.h2
