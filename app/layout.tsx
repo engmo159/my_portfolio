@@ -24,8 +24,39 @@ const sora = Sora({
 })
 
 export const metadata: Metadata = {
-  title: 'Eng Mohammed Saeed ',
-  description: 'full stack web portfolio',
+  title: 'Eng Mohammed Saeed | Full Stack Developer Portfolio',
+  description:
+    'Professional portfolio of Eng Mohammed Saeed - Full Stack Developer specializing in modern web technologies. View my projects, skills, and get in touch for collaboration.',
+  keywords:
+    'Full Stack Developer, Web Development, Portfolio, React, Next.js, JavaScript',
+  authors: [{ name: 'Eng Mohammed Saeed' }],
+  openGraph: {
+    title: 'Eng Mohammed Saeed | Full Stack Developer Portfolio',
+    description:
+      'Professional portfolio of Eng Mohammed Saeed - Full Stack Developer specializing in modern web technologies.',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Eng Mohammed Saeed | Full Stack Developer Portfolio',
+    description:
+      'Professional portfolio of Eng Mohammed Saeed - Full Stack Developer specializing in modern web technologies.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-site-verification', // Add your Google Search Console verification code
+  },
 }
 
 export default function RootLayout({
@@ -33,11 +64,32 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Eng Mohammed Saeed',
+    jobTitle: 'Full Stack Developer',
+    description:
+      'Professional Full Stack Developer specializing in modern web technologies',
+    url: 'https://your-domain.com',
+    sameAs: [
+      // Add your social media profiles here
+      'https://github.com/engmo159',
+      'https://www.linkedin.com/in/mohamed-saeed-web',
+    ],
+  }
+
   return (
     <html
       lang='en'
       className={`${inter.variable} ${poppins.variable} ${sora.variable}`}
     >
+      <head>
+        <script
+          type='application/ld+json'
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>
         <div
           className={`page bg-site text-white bg-cover bg-no-repeat font-sora relative`}
