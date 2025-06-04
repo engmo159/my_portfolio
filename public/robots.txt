@@ -1,15 +1,14 @@
 # Allow all crawlers
 User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /static/
 Allow: /
 
 # Sitemap location
 Sitemap: https://mohamedsaeed.vercel.app/sitemap.xml
 
-# Disallow admin and api routes
-Disallow: /api/
-Disallow: /admin/
-Disallow: /_next/
-Disallow: /static/
-
-# Crawl-delay
-Crawl-delay: 10 
+# Optional: Crawl delay for other bots (not Googlebot)
+User-agent: Bingbot
+Crawl-delay: 10
